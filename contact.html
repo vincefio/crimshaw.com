@@ -53,22 +53,29 @@
     <section class="show-news">
       <div class="container">
         <div class="row">
-          <h3 class="music-text" id="contact-text">For booking, media inquires, and groupie auditions, use the contact form below</h3>
-          <div class="col-md-7"> 
-            <!-- Do not change the code! -->
-            <a id="foxyform_embed_link_864433" href="http://www.foxyform.com/">foxyform</a>
-            <script type="text/javascript">
-            (function(d, t){
-               var g = d.createElement(t),
-                   s = d.getElementsByTagName(t)[0];
-               g.src = "http://www.foxyform.com/js.php?id=864433&sec_hash=0434fe065a7&width=350px";
-               s.parentNode.insertBefore(g, s);
-            }(document, "script"));
-            </script>
-            <!-- Do not change the code! -->
-          </div>
+          <h3 class=" contact-text music-text" id="contact-textID">For booking, media inquires, and groupie auditions, use the contact form below</h3>
+        
+
+          <form id="contact-form">
+            <div class="form-group">
+              <label class="label-text" for="name">Name:</label>
+              <input type="name" class="form-control" id="email-input" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <label class="label-text" for="email">Email:</label>
+              <input type="email" class="form-control" id="email-input" placeholder="Email">
+            </div>
+            <div class="form-group">
+                <label class="label-text" for="message">Message:</label>
+                <textarea type="message" class="form-control" id="message-input" placeholder="Message" name="message"></textarea>
+            </div>
+            
+            <button type="submit" class="btn btn-default" id="submit-button">Submit</button>
+          </form>
+
+
           <div class="col-md-8">
-            <h3 class="music-text" id="socialReminder">Don't forget to follow us on Facebook, Instagram, and Youtube.  Click the links below!
+            <h3 class="contact-text music-text" id="socialReminder">Don't forget to follow us on Facebook, Instagram, and Youtube.  Click the links below!
             <ul id="social-icons">
               <li>
                 <a href="https://www.facebook.com/crimshawofficial/" target="_blank">

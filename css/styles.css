@@ -13,13 +13,6 @@ p {
 }
 
 
-/*#mc_embed_signup{
-  background:#fff; 
-  clear:left; 
-  font:18px Helvetica,Arial,sans-serif; 
-  width:100%;
-  padding: 15px 35px;
-}*/
 
 #head-container {
   margin-left: 0;
@@ -89,6 +82,9 @@ iframe {
   width: 80%;
 }
 
+.index-text{
+  color: #9d9d9d;
+}
 /*#itunes-link{
   height: 100px;
   
@@ -127,13 +123,26 @@ iframe {
 
 }
 
+#rockondock{
+  display: block;
+  margin: 0 auto;
+  margin-bottom: 25px;
+}
+
 /***MUSIC PAGE STYLING********/
+#album-news{
+  margin-top: 65px;
+  padding-bottom: 0;
+  margin-bottom: -40px;
+  color: #B22222;
+}
+
 #music-body{
   background: #000;
 }
 
 #bandcamp-waiting{
-  padding-top: 70px;
+  padding-top: 51px;
   padding-bottom: 35px;
 }
 
@@ -158,9 +167,18 @@ margin-top: 5px;
 }
 
 /****CONTACT PAGE STYLING****/
-#contact-text{
+#contact-textID{
   padding-left: 20px;
   /*padding-bottom: 15px;*/
+}
+
+#contact-form{
+    margin-right: 30%;
+    padding-left: 20px;
+}
+
+.label-text{
+  color: #808080;
 }
 
 ul#social-icons li {
@@ -176,6 +194,11 @@ ul#social-icons li {
 
 #socialReminder{
   margin-top: 0;
+  padding-left: 5px;
+}
+
+#submit-button{
+  margin-bottom: 15px;
 }
 /****FOOTER****/
 footer {
@@ -286,6 +309,24 @@ footer li a{
 
 body {
   margin-top: 60px;
+}
+
+#bandcamp-waiting{
+  padding-top: 13px;
+
+}
+
+#contact-form{
+  margin-left: 5%;
+  margin-right: 5%;
+  /*padding-left: 0;*/
+}
+
+.contact-text{
+    font-color: #808080;
+    font-size: 20px;
+    padding-left: 20px;
+    margin-left: 5%;
 }
 
 /*#background-mobile{
